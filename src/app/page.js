@@ -40,7 +40,6 @@ const page = () => {
         setLoading(false))
     },[])
     const [completed,setCompleted] = useState(false)
-    const [move,setMove] = useState(false)
     const [name,setName] = useState("")
     const logoURL = name ? `https://logo.clearbit.com/${name.toLowerCase().replace(/\s+/g,"")}.com` : null
     const [err,setErr] = useState("")
